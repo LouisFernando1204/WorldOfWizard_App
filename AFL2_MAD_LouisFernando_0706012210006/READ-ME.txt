@@ -1,0 +1,25 @@
+{\rtf1\ansi\ansicpg1252\cocoartf949
+{\fonttbl}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+}
+
+Berikut adalah beberapa perubahan serta penambahan yang saya lakukan yaitu:
+
+- damage physical attack menjadi 40 serta meteor diubah menjadi 100.
+- hp maksimal menjadi 500.
+- penambahan menu shop untuk membeli berbaagai aability card.
+- penambahan money yang dapat digunakan untuk shop.
+- penambahan class AbilityCard (child class: SpeedCard, LuckyCard, ImmortalityCard).
+- penambahan class Enemy (child class: Trooper, Giant).
+- penambahan menu show collection of ability card untuk menampilkan ability card yang sudah dibeli.
+- ketika battle di Forest of Troll dan Mountain of Golem, terdapat penentuan dahulu Troll atu Golem bisa berupa Trooper ataupun Giant.
+- ability card dapat digunakan ketika battle.
+- efek dari pembelian ability card baik itu SpeedCard, LuckyCard, ImmortalityCard dapaat berbeda-beda berdasarkan currentStatus milik player.
+- ketika battle, player tidak langsung menyerang dan enemy menyerang si player tetapi player dapat menentukan posisi diaman player berada dan juga posisi target enemy, begitu juga enemy dapat menetukan posisi nya berada (secara random integer), dan juga menyerang (secara random integer).
+
+Untuk penamaan variabel potion, elixir, physical attack, meteor, shield serta troll dan golem tetap sama (tidak ada yang diganti)
+
+Untuk Flow Game lebih detail, dapat langsung dilihat di masing-masing file karena sudah terdapat penjelasan detail mengenai masing-masing atribut dan fungsi yang digunakan.
+
+Sekian dari saya, Terima kasih...
